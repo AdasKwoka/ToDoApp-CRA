@@ -1,0 +1,60 @@
+.tasks {
+  position: absolute;
+  width: 30%;
+  max-width: 35%;
+  color: whitesmoke;
+}
+
+.active {
+  top: 10%;
+  left: 5%;
+}
+
+.done {
+  top: 10%;
+  right: 5%;
+}
+
+.tasks h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.tasks ul {
+  list-style: none;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tasks li {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.tasks span {
+  margin-right: 10px;
+}
+
+.dT {
+  display: block;
+}
+
+.tasks .btnT {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 2px solid black
+}
+
+.tasks .btnT:nth-of-type(1){
+  background-color: green;
+}
+
+.tasks .btnT:nth-of-type(2),
+.tasks .btnT.doneT{
+  background-color: red;
+}
+
+.tasks .btnT:hover {
+  cursor: pointer;
+}
